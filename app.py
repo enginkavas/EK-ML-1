@@ -5,8 +5,14 @@ from sklearn.linear_model import LinearRegression
 
 app = Flask(__name)
 
-@app.route('/')
-def index():
-    return render_template('index.html')
+
+@app.route("/")
+    
+
+# def index():
+#    return render_template('index.html')
+
+def hello():
+    return "<h1>Hello MIS604 Class !</h1>"
 
 
