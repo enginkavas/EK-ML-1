@@ -10,7 +10,7 @@ def index():
     return render_template('index.html')
 
 
-@app.route("/")
-def hello():
-    return "<h1>Hello MIS604 Class !</h1>"
+# @app.route("/")
+# def hello():
+#    return "<h1>Hello MIS604 Class !</h1>"
 
